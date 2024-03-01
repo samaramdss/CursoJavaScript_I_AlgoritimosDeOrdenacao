@@ -11,7 +11,7 @@ for (let atual = 0; atual < livros.legth; atual++) {
   console.log('Livro menor preço: ', livro[menor]);
 
   livros[atual] = livroMenorPreco;
-  livro[menor] = livroAtual;
+  livros[menor] = livroAtual;
 }
 
 console.log(livros);
